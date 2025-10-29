@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(0, 121, 81);
+
+}
+.titulo {
+    color: white;
+}
+.linea {
+    border: 2px solid white;
+    width: 40%;
+    border-radius: 20%;
+    margin-left: 80%;
+    
+    
+}
+.linea2 {
+    border: 2px solid white;
+    width: 40%;
+    border-radius: 20%;
+   margin-left: -20%;
+}
+.letters {
+    color: white;
+}
