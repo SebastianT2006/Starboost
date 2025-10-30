@@ -2,8 +2,48 @@ body{
     background-color: rgb(0, 121, 81);
 
 }
+
+
+    button {
+  position: relative;
+  padding: 25px;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden; 
+  transition: transform 0.3s ease;
+}
+
+
+ 
+
+
+button::after {
+  content: ""; 
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  background-color: rgba(127, 255, 212, 0); 
+  transition: background-color 0.6s ease;
+}
+
+
+button:hover::after {
+  background-color: rgba(127, 255, 212, 0.7); 
+}
+
 .titulo {
     color: white;
+}
+.titulo2 {
+    color: rgb(0, 0, 0);
+    
+}
+.titulo3 {
+    color: white;
+    
 }
 .linea {
     border: 2px solid white;
@@ -19,6 +59,101 @@ body{
     border-radius: 20%;
    margin-left: -20%;
 }
+
+.linea3 {
+     border: 2px solid rgb(0, 0, 0);
+    width: 40%;
+    border-radius: 20%;
+   margin-left: 80%;
+}
+
+.linea4 {
+      border: 2px solid rgb(0, 0, 0);
+    width: 40%;
+    border-radius: 20%;
+   margin-left: -20%;
+}
 .letters {
     color: white;
+}
+
+.botones {
+ background-color: white;
+}
+
+.boton1 {
+    
+    width: 350px;
+    height: 288px;
+    margin: 10px;
+    background-image: url(cabin.png);
+     background-size: cover;        
+    background-position: center;   
+    border: none;
+}
+.boton2 {
+    background-image: url(cake.png);
+     background-size: cover;        
+    background-position: center;   
+    border: none;
+    
+    width: 350px;
+    height: 288px;
+    margin: 10px;
+    
+}
+.boton3 {
+
+   
+    width: 350px;
+    height: 288px;
+    margin: 10px;
+    background-image: url(circus.png);
+     background-size: cover;        
+    background-position: center;   
+    border: none;
+}
+.boton4 {
+   
+    
+    width: 350px;
+    height: 288px;
+    margin: 10px;
+    background-image: url(game.png);
+     background-size: cover;        
+    background-position: center;   
+    border: none;
+}
+.boton5 {
+    background-image: url(safe.png);
+     background-size: cover;        
+    background-position: center;   
+    border: none;
+    
+    width: 350px;
+    height: 288px;
+    margin: 10px;
+}
+.boton6 {
+    background-image: url(submarine.png);
+     background-size: cover;        
+    background-position: center;   
+    border: none;
+    
+    width: 350px;
+    height: 288px;
+    margin: 10px;
+}
+.aboutme {
+    background-color: rgb(0, 121, 81);
+    height: 200px;
+    margin-top: 50px;
+}
+.letters2 {
+    color: white;
+    font-size: 22px;
+}
+.letters3 {
+    color:white ;
+    font-size: 22px;
 }
